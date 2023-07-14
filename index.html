@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="index.css">
+  
+  <title>TC Web Login page</title>
+</head>
+<body>
+<div class="full-page">
+    <nav>
+      <ul id="MenuItems">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+        <button class="login btn" onclick="document.getById ('login-form').style.display='block'" style="width: auto;">Login</button>
+      </ul>
+    </nav>
+  </div> <br>
+  
+<br> lorem ....<br>
+<P>hola!</P>
+  <br><div id='login-form' class='login-page'>
+    <div class="form-box">
+      <div class="button-box">
+        <div id='btn'></div>
+      <button type='button' onclick='login()' class='toggle-btn'>Log In</button>
+      <button type='button' onclick='register()' class='toggle-btn'>Register</button>
+      </div>
+      <form id='login' class='input-group-login'>
+      <input type="text" class="input-field" placeholder="Email Id" required>
+      <input type="password" class="input-field" placeholder="Enter password" required>
+      <input type="checkbox" class="check-box"><span>Remember Password</span> 
+      <button type="submit" class="submit-btn">Log in</button>
+      </form>
+      <form id='register' class='input-group-register'>
+      <input type="text" class="input-field" placeholder="First Name" required>
+     <input type="text" class="input-field" placeholder="Last Name" required>
+     <input type="text" class="input-field" placeholder="Enter Id" required>
+      <input type="password" class="input-field" placeholder="Enter password" required>
+      <input type="password" class="input-field" placeholder="Confirm password" required>
+      <input type="checkbox" class="check-box"><span>I have read and agree to the terms and conditions</span> 
+      <button type="submit" class="submit-btn">Log in</button>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
